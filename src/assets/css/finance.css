@@ -1,0 +1,178 @@
+/* finance */
+
+/* 金融外部商户签约 */
+.page-extemal-accounts-add {
+  .extemal-accounts-content {
+    .el-row {
+      padding: 0 20px;
+    }
+  }
+}
+/* 金融提现列表 */
+.layout-content-list.withdraw-list {
+  .el-select {
+    .el-input {
+      width: 150px;
+    }
+  }
+}
+/* 金融交易管理数据维护列表 */
+.layout-content-list.recharge-list {
+  .el-select {
+    .el-input {
+      width: 150px;
+    }
+  }
+}
+/* 签章管理云章合同文档列表*/
+.layout-content-list.contract-list {
+  .el-select {
+    .el-input {
+      width: 160px;
+    }
+  }
+}
+/*签章管理云章合同模板列表*/
+.layout-content-list.contract-template-list {
+  .el-select {
+    .el-input {
+      width: 160px;
+    }
+  }
+}
+
+/* 发票登记详情 */
+.invoice-detail-page {
+  .el-input__inner,
+  .el-date-editor.el-input {
+    width: 200px;
+  }
+  .el-textarea__inner {
+    width: 320px;
+  }
+  .el-form-item__label {
+    color: #99a9bf;
+  }
+
+  .Info-segment {
+    .el-form-item--mini.el-form-item,
+    .el-form-item--small.el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .linker {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+/* 发票列表详情 */
+.invoice-detail {
+  .Info-segment {
+    .el-form-item--mini.el-form-item,
+    .el-form-item--small.el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .card-tag-num {
+    height: 14px;
+    margin-left: 7px;
+    padding: 0 7px;
+    border-radius: 7px;
+    color: #fff;
+  }
+  .el-tabs--border-card {
+    box-shadow: none;
+  }
+  .pact-section {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--base-border-color);
+    &:nth-last-child(1) {
+      border-bottom: 0;
+    }
+
+    .el-form-item--mini.el-form-item,
+    .el-form-item--small.el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .handle-btn {
+      margin-right: 15px;
+      color: #17cb9f;
+      font-weight: 500;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .linker {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+/* 发票登记列表 */
+.invoice-check-list {
+  .upload-btn-box {
+    display: flex;
+    align-items: baseline;
+    .upload-box {
+      display: flex;
+      max-width: 300px;
+    }
+    .el-upload-list {
+      max-width: 250px;
+    }
+  }
+}
+
+/* 金融订单详情 */
+.capital-order-detail {
+  .Info-segment {
+    .el-form-item--mini.el-form-item,
+    .el-form-item--small.el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  /* .card-tag-num {
+    height: 14px;
+    margin-left: 7px;
+    padding: 0 7px;
+    border-radius: 7px;
+    color: #fff;
+  }
+  .el-tabs--border-card {
+    box-shadow: none;
+  }
+  .pact-section {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--base-border-color);
+    &:nth-last-child(1) {
+      border-bottom: 0;
+    }
+
+    .el-form-item--mini.el-form-item,
+    .el-form-item--small.el-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .handle-btn {
+      margin-right: 15px;
+      color: #17CB9F;
+      font-weight: 500;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  } */
+}

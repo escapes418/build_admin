@@ -1,0 +1,208 @@
+/* 待确认订单详情 */
+.order-pending-detail-page {
+  .comfirm-form {
+    margin-top: 30px;
+    .el-input {
+      width: 300px;
+    }
+  }
+  /* 收款账户 */
+  .receiving-party {
+    .receiving-label {
+      display: inline-block;
+      width: 80px;
+      color: var(--base-gray-color);
+      text-align: right;
+    }
+  }
+}
+
+/* 添加收购点地图 */
+.amap-wrapper {
+  margin-left: 120px;
+  width: 764px;
+  height: 400px;
+  position: relative;
+}
+/* 收购点账户管理 */
+.coalmine-account-mng-page {
+  position: relative;
+  padding-bottom: 40px;
+}
+/* 添加收购点账户 */
+.addAccount-content {
+  .addAccount-form-content {
+    padding: 10px;
+    .panels {
+      .el-input {
+        width: 400px;
+      }
+    }
+  }
+}
+/*价格优惠配置新增*/
+.page-discount-rule-add {
+  .discount-form .el-input {
+    width: 160px;
+  }
+  .suffix-unit {
+    line-height: 35px;
+    padding-right: 3px;
+  }
+  .discount-form {
+    .discount-price {
+      margin-left: 120px;
+      .el-input {
+        width: 200px;
+      }
+    }
+    .discount-price:last-child {
+      margin-left: 0;
+    }
+    .del-range-btn {
+      margin: 2px 0 0 10px;
+    }
+  }
+  .segment {
+    .segment-header {
+      .del-bold {
+        font-weight: 400;
+      }
+    }
+  }
+}
+/*新增商户表单*/
+.page-addAccount {
+  .page-addAccount-form-content {
+    padding: 0 10px;
+    .el-form {
+      .el-input {
+        width: 240px;
+      }
+    }
+    .remove-label-left {
+      padding: 0 10px;
+      .el-form-item__content {
+        margin-left: 0 !important;
+      }
+    }
+    .el-radio {
+      margin-right: 20px;
+      &:nth-last-child(1) {
+        margin-right: 0;
+      }
+    }
+    .bank-account-section {
+      .el-input {
+        width: 300px;
+      }
+    }
+    .upload-tips {
+      text-align: left;
+      margin: 10px 0 10px 38px;
+    }
+  }
+}
+/* 贸易凭证 */
+.trade-certform-page {
+  .table-col-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .table-col-img + .table-col-img {
+    margin-left: 10px;
+  }
+}
+
+/* 商品基础数据添加 */
+.base-goods-form {
+  .el-input {
+    width: 300px;
+  }
+  .el-select {
+    width: 300px;
+    .el-input {
+      width: 100%;
+    }
+  }
+}
+.base-goods-form-page {
+  .footer-btn-panel {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* 商城菜单管理 */
+.menu-tree-table {
+  border: 1px solid #ebeef5;
+  border-bottom: none;
+  color: #606266;
+  .el-tree__empty-block {
+    border-bottom: 1px solid #ebeef5;
+  }
+  .tree-th-header {
+    height: 40px;
+    line-height: 40px;
+    background: #f7f9fb;
+    position: relative;
+    border-bottom: 1px solid #ebeef5;
+    font-size: 12px;
+    .tree-th-name {
+      padding-left: 10px;
+    }
+    .tree-th-content {
+      position: absolute;
+      left: 25%;
+      width: 75%;
+      .el-col {
+        border-left: 1px solid #ebeef5;
+        padding: 0 10px;
+      }
+    }
+  }
+  .el-tree-node__content {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ebeef5;
+    padding: 8px 0;
+    box-sizing: border-box;
+    .el-col {
+      border-left: 1px solid #ebeef5;
+      padding: 0 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .custom-tree-node {
+    font-size: 12px;
+    padding-right: 8px;
+    .custom-node-content {
+      position: absolute;
+      left: 25%;
+      width: 75%;
+    }
+  }
+}
+/* 菜单编辑 */
+.menu-form-panel {
+  padding-top: 30px;
+  .el-input__inner {
+    width: 300px;
+  }
+  .el-input__inner.pointer-input {
+    cursor: pointer;
+  }
+}
+.menu-dialog-tree {
+  height: 300px;
+  overflow: auto;
+  margin-top: 30px;
+  background: #f0f0f0;
+  padding: 10px;
+}
